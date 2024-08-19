@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Checkmaits (Brock M. Mowry)</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+    * {
+      font-family: "Rubik", sans-serif;
+    }
+
+    .nav-item>a.nav-link {
+      color: rgb(0, 0, 0, 0.55);
+    }
+
+    .nav-item>a.nav-link:hover {
+      text-decoration: underline;
+    }
+
+    .nav-item>a.nav-link.active {
+      color: var(--bs-black);
+    }
+  </style>
+</head>
+
+<body>
+  <header class="border-bottom py-3">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-4 col-lg-5">
+          <div class="text-center text-md-start">
+            <h1 class="fw-bold mb-0">Checkmaits</h1>
+          </div>
+        </div>
+        <div class="col-12 col-md col-lg mt-2 mt-md-0">
+          <nav>
+            <ul class="nav justify-content-center justify-content-md-end">
+              <li class="nav-item">
+                <a href="/index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="/" class="nav-link active">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="main__header">
+      <div class="jumbotron py-5 bg-light">
+        <div class="container">
+          <h2 class="fw-bold">Portfolio</h2>
+          <p class="mb-0">A curated list of some of my projects and professional work</p>
+        </div>
+      </div>
+    </div>
+    <div class="main__body mt-4">
+      <div class="container">
+        <section id="project-section">
+          <h3 class="h4 fw-bold">Projects</h3>
+          <div class="row align-items-start gy-3">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <img src="imgs/spacetours-img.png" alt="spacetours.io" class="card-img mb-3">
+                  <h5 class="card-title">spacetours.io</h5>
+                  <p class="card-text mb-0">
+                    My final project for COMP 1054, spacetours.io is a mock website for a fictional space hotel company
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span>HTML, CSS & JS (Express)</span>
+                    <a href="https://comp1054-main-project-ld85.vercel.app/" class="link-dark">Visit site</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
